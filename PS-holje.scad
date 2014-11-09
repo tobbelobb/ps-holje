@@ -42,8 +42,8 @@ M4_zneg_overdel  = 12.8;
 
 /* ====  Värden vi bestämt själv ==== */
 
-tak_o_golv = 2.25;/* Tjocklek på tak och golv                        */
-vaeggar = 1.5;    /* Tjocklek på väggar                              */
+tak_o_golv = 1.5;/* Tjocklek på tak och golv                        */
+vaeggar = 2.25;    /* Tjocklek på väggar                              */
 stor =  200;      /* Random stort tal, används vid difference ibland */
 hoernradie = 5;   /* Yttre radien på runda hörn                      */
 slot_tak = 4;     /* Millimeter med plast över mutterlåsen           */
