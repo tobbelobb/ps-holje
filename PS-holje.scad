@@ -213,7 +213,7 @@ module liten_kloss_underdel(){
     // Skåran till sladd0
       translate([sladd0_x,0,underdel_hoejd])
         rotate([-90,0,0]) rotate([0,0,210])
-          cylinder(h = stor, r = lillr, $fn=3);
+          cylinder(h = stor, r = lillr, $fn=30);
   }
 }
 //liten_kloss_underdel();
@@ -230,10 +230,10 @@ module stor_kloss_underdel(){
     // Skåror till sladd1 och sladd2
     translate([sladd1_x,0,underdel_hoejd]) 
       rotate([-90,0,0]) rotate([0,0,210])
-        cylinder(h = stor, r = lillr, $fn=3);
+        cylinder(h = stor, r = lillr, $fn=30);
     translate([sladd2_x,0,underdel_hoejd]) 
       rotate([-90,0,0]) rotate([0,0,210])
-        cylinder(h = stor, r = storr, $fn=3);
+        cylinder(h = stor, r = storr, $fn=30);
   }
 }
 //stor_kloss_underdel();
@@ -291,7 +291,7 @@ module underdel(){
     stor_kloss_underdel();
   }
 }
-//underdel();
+underdel();
 
 module overdel(){
   golv_under_skruvhuvuden = 3;
@@ -413,4 +413,4 @@ module show(){
     }
   }
 }
-show();
+//show();
